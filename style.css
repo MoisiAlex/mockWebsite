@@ -7,10 +7,11 @@ p,label {color:#dedede;
         margin: 10px; 
         font-family: 'PT Sans', sans-serif;}
 
-h3{color:#dedede;margin-bottom: 0;font-family: 'PT Sans', sans-serif;}
+h3{color:#dedede;
+    margin-bottom: 0;
+    font-family: 'PT Sans', sans-serif;}
 
 hr{margin:0;padding:0;}
-
 
 
 header, footer{
@@ -23,11 +24,9 @@ img{
     margin-bottom: 5px;
 }
 .container{
-    align-items: center; 
     display:flex;
+    align-items: center; 
     justify-content: space-between;
-    align-content: center;
-    
 }
 
 .miez{ 
@@ -38,12 +37,12 @@ img{
     height:800px;
     background: url(Icons/eggplant.png);
     background-attachment: fixed;
- 
 }
 
 nav ul li{
     list-style: none;
 }
+
 nav ul li a{
     color:#dedede;
     text-decoration: none;
@@ -52,9 +51,10 @@ nav ul li a{
     flex-direction: column;
     margin-right: 20px;
 }
+
 nav ul li a:hover{
     text-decoration: underline;
-    color:darkcyan;
+    color:#008b8b;
 }
 
 article{
@@ -62,20 +62,17 @@ article{
     height:50%;
     background-color: #202021;
     margin-top:40px;
-  box-shadow: 0px 0px 8px #000;
+    box-shadow: 0px 0px 8px #000;
     
 }
-
 
 article.container {
     flex-direction: column;
     justify-content: space-between;
-    
 }
 
 article div{ 
-    margin:10px;
-    
+    margin:10px; 
 }
 
 footer{
@@ -85,8 +82,6 @@ footer{
 footer div{
     flex:1;
 }
-
-
 
 footer div:last-child{
     align-items: center;
